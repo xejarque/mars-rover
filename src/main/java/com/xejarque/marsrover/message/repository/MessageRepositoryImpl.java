@@ -9,7 +9,7 @@ import java.util.List;
 @Repository
 public class MessageRepositoryImpl implements MessageRepository {
 
-    List<Message> messages = new ArrayList<>();
+    private List<Message> messages = new ArrayList<>();
 
     @Override
     public void saveMessage(Message message) {

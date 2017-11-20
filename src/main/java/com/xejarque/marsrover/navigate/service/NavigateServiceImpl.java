@@ -34,7 +34,7 @@ public class NavigateServiceImpl implements NavigateService {
 
     @Override
     public void stop() {
-        marsRoverStatus.setEngineStatus(EngineStatus.STOPED);
+        marsRoverStatus.setEngineStatus(EngineStatus.STOPPED);
     }
 
 }

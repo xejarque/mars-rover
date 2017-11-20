@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Data
 public class MarsRoverStatus {
 
-    private EngineStatus engineStatus = EngineStatus.STOPED;
+    private EngineStatus engineStatus = EngineStatus.STOPPED;
 
     private Location location = new Location(0f, 0f);
 

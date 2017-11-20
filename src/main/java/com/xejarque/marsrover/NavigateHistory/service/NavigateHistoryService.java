@@ -7,6 +7,7 @@ import java.util.List;
 public interface NavigateHistoryService {
 
     List<Location> list();
+
     void clear();
 
 }

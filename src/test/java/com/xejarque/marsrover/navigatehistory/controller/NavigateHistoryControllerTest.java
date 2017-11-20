@@ -1,4 +1,4 @@
-package com.xejarque.marsrover.navigateHistory.controller;
+package com.xejarque.marsrover.navigatehistory.controller;
 
 import com.xejarque.marsrover.NavigateHistory.controller.NavigateHistoryController;
 import com.xejarque.marsrover.NavigateHistory.service.NavigateHistoryService;
@@ -61,7 +61,7 @@ public class NavigateHistoryControllerTest {
                 new Location(3f, 8f),
                 new Location(6f, 2f),
                 new Location(16f, 2f)
-                );
+        );
     }
 
 

@@ -23,7 +23,7 @@ public class NavigateHistoryController {
 
     @RequestMapping(method = RequestMethod.GET, value = LOCATION_URL)
     public NavigateHistoryMessage list() {
-        return new NavigateHistoryMessage(navigateHistoryService.list(),"The requested list.");
+        return new NavigateHistoryMessage(navigateHistoryService.list(), "The requested list.");
     }
 
     @RequestMapping(method = RequestMethod.DELETE, value = LOCATION_URL)
@@ -31,10 +31,6 @@ public class NavigateHistoryController {
         navigateHistoryService.clear();
         return new NavigateHistoryMessage(new ArrayList<>(), "History cleaned");
     }
-
-
-
-
 
 
 }

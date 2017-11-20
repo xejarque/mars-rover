@@ -7,7 +7,9 @@ import java.util.List;
 public interface NavigateHistoryRepository {
 
     void save(Location location);
-    List<Location> list() ;
+
+    List<Location> list();
+
     void clear();
 
 }

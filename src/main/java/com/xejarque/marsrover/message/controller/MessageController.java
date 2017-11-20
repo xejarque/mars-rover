@@ -1,10 +1,7 @@
 package com.xejarque.marsrover.message.controller;
 
 import com.xejarque.marsrover.commons.Message;
-import com.xejarque.marsrover.location.model.Location;
 import com.xejarque.marsrover.message.service.MessageService;
-import com.xejarque.marsrover.navigate.message.NavigateMessage;
-import com.xejarque.marsrover.navigate.service.NavigateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,12 +24,6 @@ public class MessageController {
     public void send(@RequestBody Message message) {
         messageService.sendMessage(message);
     }
-
-
-
-
-
-
 
 
 }

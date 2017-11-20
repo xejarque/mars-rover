@@ -1,7 +1,7 @@
 package com.xejarque.marsrover.navigate.controller;
 
-import com.xejarque.marsrover.navigate.message.NavigateMessage;
 import com.xejarque.marsrover.location.model.Location;
+import com.xejarque.marsrover.navigate.message.NavigateMessage;
 import com.xejarque.marsrover.navigate.service.NavigateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -32,10 +32,6 @@ public class NavigateController {
         navigateService.stop();
         return new NavigateMessage("Mars rover is stopped.");
     }
-
-
-
-
 
 
 }
